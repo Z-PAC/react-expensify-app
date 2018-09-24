@@ -4,16 +4,16 @@ exports[`should render ExpenseListItem with fixture data 1`] = `
 <div>
   <Link
     replace={false}
-    to="/edit/1"
+    to="/edit/2"
   >
     <h3>
-      Gum
+      Rent
     </h3>
   </Link>
   <p>
-    195
-     - 
-    0
+    €1 095,00
+    -
+    December 28th, 1969
   </p>
 </div>
 `;
