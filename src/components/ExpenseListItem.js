@@ -2,23 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import moment from 'moment';
 import numeral from 'numeral';
-
-// load euro locale
-numeral.register('locale', 'pt', {
-  delimiters: {
-    thousands: ' ',
-    decimal: ','
-  },
-  abbreviations: {
-    thousand: 'k',
-    million: 'm',
-    billion: 'b',
-    trillion: 't'
-  },
-  currency: {
-    symbol: '€'
-  }
-});
+import '../locales/pt';
 
 numeral.locale('pt');
 
