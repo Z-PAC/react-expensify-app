@@ -6,3 +6,7 @@ node_modules/
 
 # Public maps
 public/dist/
+
+# .env's
+.env.test
+.env.development
