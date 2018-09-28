@@ -19,3 +19,7 @@
 .button--secondary {
   background: #888888;
 }
+
+.button--darkened {
+  background: darken($color: $blue, $amount: 20%);
+}
